@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>SheCodes Plus Project by Genevieve</title>
   </head>
   <body>
@@ -29,7 +30,13 @@
           Saturday 15:32, moderate rain Humidity <strong>87%</strong>, Wind:
           <strong>7.3mk/h</strong>
         </div>
+        <div class="current-temperature">
+          <span class="current-temperature-icon">☀️</span
+          ><span class="current-temperature-value" id="temperature">24</span
+          ><span class="current-temperature-unit">°C</span>
+        </div>
         <div class="week-forecast">
+          <h2>Weekly Forecast</h2>
           <ul>
             <li>
               Sun ⛅<br />
